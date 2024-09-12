@@ -1,0 +1,55 @@
+/* src/components/HomePage.css */
+
+/* General container styling */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f4f4f9;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Heading style */
+  .home-container h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  /* Button container */
+  .button-container {
+    display: flex;
+    gap: 30px; /* Space between buttons */
+  }
+  
+  /* Styling for the buttons */
+  .btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #007bff; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Responsive design: On smaller screens, stack the buttons vertically */
+  @media (max-width: 600px) {
+    .button-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .btn {
+      width: 200px;
+      margin-bottom: 20px;
+    }
+  }
+  

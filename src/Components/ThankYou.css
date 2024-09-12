@@ -1,0 +1,21 @@
+/* src/components/ThankYou.css */
+.thank-you-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
+  }
+  
+  .thank-you-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .thank-you-container p {
+    font-size: 1.2rem;
+  }
+  
